@@ -25,7 +25,7 @@ export default function App() {
     const firstCorrection = correctedWords.find((el, idx) => {
       return el !== words[idx];
     });
-    setSuggestions(firstCorrection || " ");
+    setSuggestions(firstCorrection || "");
   };
   return (
     <div>
